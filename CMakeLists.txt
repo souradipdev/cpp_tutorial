@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.28)
+project(C__)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(input input.cpp)
+add_executable(math math.cpp)
+add_executable(random random.cpp)
+add_executable(scope scope.cpp)
+add_executable(forEach forEach.cpp)
+add_executable(pointers pointers.cpp)
+add_executable(functionTemplate function_template.cpp)
+add_executable(enums enums.cpp)
+add_executable(object object.cpp)
+add_executable(constructors constructors.cpp)
+add_executable(constructor_overloading constructor_overloading.cpp)
+add_executable(getter_setter getter_setter.cpp)
+add_executable(inheritance inheritance.cpp)
