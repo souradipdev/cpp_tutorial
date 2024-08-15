@@ -22,8 +22,8 @@ int main() {
   Day today = friday;
   Month thisMonth = February;
   Name myName = Souradip;
-  std::cout << "Today: " <<today << "\n";
-  std::cout << "My name: "  <<myName << "\n"; //0 Default value is automatically added to enums starting from 0
+  std::cout << "Today: " << today << "\n";
+  std::cout << "My name: " << myName << "\n"; //0 Default value is automatically added to enums starting from 0
   std::cout << "This month: " << thisMonth << "\n";
 
   switch (today) {
