@@ -26,3 +26,5 @@ add_executable(vector5 vector/vector5.cpp)
 
 add_executable(set1 set/set1.cpp)
 add_executable(set2 set/set2.cpp)
+
+add_executable(const_pointers pointers/const_pointers.cpp)
