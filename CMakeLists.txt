@@ -28,3 +28,6 @@ add_executable(set1 set/set1.cpp)
 add_executable(set2 set/set2.cpp)
 
 add_executable(const_pointers pointers/const_pointers.cpp)
+
+add_executable(reference1  reference/reference1.cpp)
+add_executable(const_reference  reference/const_reference.cpp)
