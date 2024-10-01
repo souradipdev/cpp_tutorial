@@ -27,9 +27,9 @@ int main() {
     cout << endl;
   }*/
 
-  const vector<vector<int>>* ptrMatrix2 = &matrix2; // Storing address of matrix2
-  const vector<int>* ptrMatrix2Row =  &matrix2[0]; // Storing address of first row of the matrix2
+  const vector<vector<int>> *ptrMatrix2 = &matrix2; // Storing address of matrix2
+  const vector<int> *ptrMatrix2Row = &matrix2[0]; // Storing address of first row of the matrix2
 
-  cout << "Deference value: " <<(*ptrMatrix2)[0][1] << endl;
+  cout << "Deference value: " << (*ptrMatrix2)[0][1] << endl;
   return 0;
 }

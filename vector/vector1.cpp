@@ -32,7 +32,7 @@ int main() {
   }
 
   arr2.insert(arr2.begin() + 2, 100); //Accessing 3rd element
-  cout << "\nStart element after inserting at beginning: " << arr2[0] << endl;
+  cout << "\nStart element after inserting at beginning: " << arr2[2] << endl;
   arr2.pop_back();
   arr2.pop_back();
 

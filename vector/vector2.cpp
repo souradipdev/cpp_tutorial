@@ -30,5 +30,4 @@ int main() {
   }
 
   arr1.clear();
-
 }

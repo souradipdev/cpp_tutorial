@@ -10,8 +10,7 @@ int main() {
 //  refA = 2048; // error: value cannot be changed
 
   cout << "a = " << a << endl << "refA = " << refA << endl;
-
-//   int &refB = 100; // error: Non-const lvalue reference to type 'int' cannot bind to a temporary of type 'int'
+//  int &refB = 100; // error: Non-const lvalue reference to type 'int' cannot bind to a temporary of type 'int'
   const int &refB = 100;
   const int &refBB = refB;
 
