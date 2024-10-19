@@ -31,3 +31,4 @@ add_executable(const_pointers pointers/const_pointers.cpp)
 
 add_executable(reference1  reference/reference1.cpp)
 add_executable(const_reference  reference/const_reference.cpp)
+add_executable(reference3 reference/reference3.cpp)
